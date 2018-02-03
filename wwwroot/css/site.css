@@ -1,6 +1,6 @@
 ﻿body {
     padding-top: 50px;
-    padding-bottom: 20px;
+    padding-bottom: 20px;    
 }
 
 /* Wrapping element */
@@ -31,5 +31,8 @@
     /* Hide captions */
     .carousel-caption {
         display: none;
+    }
+    body{
+        background-color: rgb(230, 36, 36);
     }
 }
