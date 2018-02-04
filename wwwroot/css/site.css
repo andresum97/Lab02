@@ -32,9 +32,14 @@
     margin: 15px;
 }
 
+.contenedor{
+    max-width: 1000px;  
+    box-sizing: border-box;
+}
+
 img{
-    width: 30%;
-    height: 40%;
+    width: 20%;
+    height: auto;
 }
 
 /* Hide/rearrange for smaller screens */
