@@ -3,6 +3,10 @@
     padding-bottom: 10px;   
     background-color: royalblue; 
 }
+ 
+* {
+    box-sizing: border-box;
+}
 
 .jumbotron{
     padding: 8px;
@@ -34,12 +38,16 @@
 
 .contenedor{
     max-width: 1000px;  
-    box-sizing: border-box;
 }
 
 img{
     width: 20%;
     height: auto;
+}
+
+#fb{
+    width: 10%;
+    height: 10%;
 }
 
 /* Hide/rearrange for smaller screens */
