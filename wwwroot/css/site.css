@@ -1,13 +1,26 @@
 ﻿body {
     padding-top: 10px;
     padding-bottom: 10px;   
-    background-color: royalblue; 
+    background-color: blue; 
 }
  
 * {
     box-sizing: border-box;
 }
 
+form{
+    width: 80%;
+}
+
+#mail{
+    width: 100%;
+}
+#name{
+    width: 100%;
+}
+#comments{
+    width: 100%;
+}
 .jumbotron{
     padding: 8px;
     margin: 7px;
@@ -47,14 +60,15 @@ img{
 }*/
 
 #fb{
-    width: 7%;
-    height: 7%;
+    width: 5%;
+    height: 5%;
 }
 #perfil{
     width: 20%;
     height: auto;
 }
 #nombre{
+    margin: 35px;
     border-left: 6px solid red;
     background-color: lightgray;
 }
@@ -67,7 +81,7 @@ img{
     height: auto;
 }
 
-/* Hide/rearrange for smaller screens */
+/* Tablets Ipad size */
 @media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
     /* Hide captions */
     .carousel-caption {
@@ -84,14 +98,14 @@ img{
         border-left: 6px solid royalblue;
     }
 }
-
-@media screen and  (max-width: 767px) and (orientation: landscape) {
+/* Smartphone Iphone size*/
+@media screen and  (max-width: 767px)  {
     body{
-        background-color: rgba(51, 102, 2, 0.295);
+        background-color: green;
         font-size: 9pt;
     }
     #nombre{
-        border-left: 6px solid royalblue;
+        border-left: 6px solid rgb(0, 0, 0);
     }
     .jumbotron{
         background-size: 300px auto;

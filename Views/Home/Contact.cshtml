@@ -4,35 +4,24 @@
 }
 <h2>@ViewData["Title"]</h2>
 
-
-<meta name="Title" content="Contact CV Alberto Urizar">    
-    <meta name="Author" content="Alberto Andrés Urízar Mancía">
-    <meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
-		<link rel="stylesheet" href="assets/css/main2.css" />
-		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
-		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
-
 <body>
     <div class="container">
         <div class="jumbotron">
             <form>
                 E-mail:<br>
-                <input type="email" name="email"size="70">
+                <input id="mail" type="email" name="email"size="70">
                 <br>
                 Name:<br>
-                <input type="text" name="name"size="70">
+                <input id="name" type="text" name="name"size="70">
                 <br>
                 Coments:<br>
-                <textarea rows="4" cols="72">
+                <textarea id="comments" rows="4" cols="72">
                 </textarea>
                 <br><br>
                 <input type="submit" value="Send">
             </form>
          </div>
     </div>
-
 </body>
 
 </html>
