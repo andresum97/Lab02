@@ -40,14 +40,31 @@
     max-width: 1000px;  
 }
 
+/**
 img{
     width: 20%;
     height: auto;
-}
+}*/
 
 #fb{
-    width: 10%;
-    height: 10%;
+    width: 7%;
+    height: 7%;
+}
+#perfil{
+    width: 20%;
+    height: auto;
+}
+#nombre{
+    border-left: 6px solid red;
+    background-color: lightgray;
+}
+#logo1{
+    width: 5%;
+    height: auto;
+}
+#logo2{
+    width: 5%;
+    height: auto;
 }
 
 /* Hide/rearrange for smaller screens */
@@ -62,5 +79,8 @@ img{
     }
     .jumbotron{
         background-size: 300px auto;
+    }
+    #nombre{
+        border-left: 6px solid royalblue;
     }
 }
